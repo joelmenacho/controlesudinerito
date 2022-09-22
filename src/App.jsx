@@ -27,7 +27,7 @@ function App() {
 
   useEffect(() => {
     if (budget) {
-      setRemaining(budget - expenseList[(expenseList.length - 1)].amount);
+      setRemaining(remaining- expenseList[(expenseList.length - 1)].amount);
     }
   }, [expenseList]);
 

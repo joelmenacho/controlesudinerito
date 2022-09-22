@@ -13,7 +13,7 @@ function App() {
 
   const credits = {
     year: new Date().getFullYear(),
-    author: 'Elliot Garamendi'
+    author: 'Joel Menacho'
   };
 
   const [budget, setBudget] = useState(0);
